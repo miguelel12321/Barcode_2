@@ -3,6 +3,7 @@ function onScanSuccess(decodedText, decodedResult) {
     document.querySelector('.resultado').innerHTML = decodedText
     document.querySelector('.resultado').style.background = "transparent"
     document.querySelector('.resultado').style.background = "green"
+    decodedText = document.querySelector('.code_manual').value = decodedText
     resultado.apply()
 }
 
@@ -369,8 +370,8 @@ var c55000539 = ['BANDAS DEPILAÇÃO LISAS PACK.100UN 80GRS 7X20CM GB', '-Inform
 var c8423029031589 = ['BANDAS TÉRMICAS PARA MADEIXAS 30X100CM 100 UNIDADES', 'Euro Still', 8.45, '40003338-RP']
 var c5600482302125 = ['BASE COM DUAS DEPILADORAS RICKIPARODI PROWAX 2 COM TERMOSTATO', 'Rickiparodi', 29.50, '45800112-RP']
 var c4045787184846 = ['BC COLOR SPRAY CONDICIONADOR 200ML**', 'Schwarzcopf (Bonacure)', '-- INFORMAÇÃO INDISPONÍVEL -- NO DATA --', '725777-CN']
-var c4045787429534 = ['BONAC HMK MÁCARA MOISTURE 200ML', '', 17.50, '2326764-CN']
-var c4045787429138 = ['BONAC HMK SHAMPO MOISTURE 250ML', '', 10.50, '2326783-CN']
+var c4045787429534 = ['BONAC HMK MÁCARA MOISTURE 200ML', 'Schwarzcopf (Bonacure)', 17.50, '2326764-CN']
+var c4045787429138 = ['BONAC HMK SHAMPO MOISTURE 250ML', 'Schwarzcopf (Bonacure)', 10.50, '2326783-CN']
 var c = ['', '', , '']
 var c = ['', '', , '']
 var c = ['', '', , '']
